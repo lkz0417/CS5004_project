@@ -71,6 +71,8 @@ server {
 
 Modify the configuration file application.yml
 
+
+
 spring:
   datasource:
     url: jdbc:mysql://url
@@ -80,6 +82,9 @@ spring:
     redis:
       password: redis database password
 Create a new application-env.yml file in the resources directory and write the following configuration
+
+
+
 
 sky:
   wechat:
@@ -92,4 +97,6 @@ sky:
     weChatPayCertFilePath:
     notifyUrl:
     refundNotifyUrl:
+
+    
 run final project/sky-take-out/sky-server/src/main/java/com/sky/SkyApplication.java
