@@ -17,7 +17,6 @@ Install Java JDK 17 and configure environment variables
 
 Install MySQL and Redis databases and create corresponding databases
 
-Create MySQL database and tables: Run [mysql.sql]
 Install Maven
 
 Download and install Nginx and complete the following configurations
@@ -68,7 +67,7 @@ server {
          # Note: Create a media folder in the D:/static directory
     }
 }
-Clone the project locally https://github.com/underdogRoy/NEU_CS5004_24Spr_Ruyi-Bao-/final project/sky-take-out.git
+
 
 Modify the configuration file application.yml
 
