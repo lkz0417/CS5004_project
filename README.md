@@ -85,7 +85,6 @@ Create a new application-env.yml file in the resources directory and write the f
 
 
 
-
 sky:
   wechat:
     appid: 申请微信小程序可获得
