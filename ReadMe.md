@@ -21,9 +21,6 @@ This project is an online takeout ordering system developed using the Spring Boo
 
 1. Install Java JDK 17 and configure environment variables
 2. Install MySQL and Redis databases and create corresponding databases
-
-    - Create MySQL database and tables: Run [mysql.sql](./demo/mysql.sql)
-
 3. Install Maven build tools
 4. Download and install Nginx and complete the following configurations
 
