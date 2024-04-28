@@ -21,8 +21,9 @@ This project is an online takeout ordering system developed using the Spring Boo
 
 1. Install Java JDK 17 and configure environment variables
 2. Install MySQL and Redis databases and create corresponding databases
-3. Install Maven build tools
-4. Download and install Nginx and complete the following configurations
+   Create MySQL database and tables: Run [mysql.sql]
+4. Install Maven build tools
+5. Download and install Nginx and complete the following configurations
 
     ```
     # Configure the following content under the http item
@@ -73,8 +74,8 @@ This project is an online takeout ordering system developed using the Spring Boo
     }
     ```
 
-5. Clone the project locally
-6. Modify the configuration file [application.yml](./sky-server/src/main/resources/application.yml)
+6. Clone the project locally
+7. Modify the configuration file [application.yml](./sky-server/src/main/resources/application.yml)
 
     ```yml
     spring:
@@ -87,7 +88,7 @@ This project is an online takeout ordering system developed using the Spring Boo
           password: redis database password
     ```
 
-7. Create a new `application-env.yml` file in the [resources](./sky-server/src/main/resources/) directory and write the following configuration
+8. Create a new `application-env.yml` file in the [resources](./sky-server/src/main/resources/) directory and write the following configuration
 
     ```yml
     sky:
@@ -103,4 +104,4 @@ This project is an online takeout ordering system developed using the Spring Boo
         refundNotifyUrl:
     ```
 
-8. Run the project
+9. Run the project
