@@ -1,0 +1,7 @@
+2024/04/25 13:59:04 [emerg] 41592#69200: CreateFile() "C:/nginx-1.15.2/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2024/04/25 14:00:17 [emerg] 48104#17332: CreateFile() "C:/nginx-1.26.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2024/04/25 14:00:40 [emerg] 17356#98548: CreateFile() "C:\Users\Roy Bao\Downloads\nginx-1.26.0/nginx.conf" failed (2: The system cannot find the file specified)
+2024/04/25 14:01:30 [emerg] 19488#6148: CreateFile() "C:/nginx-1.26.0/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2024/04/25 14:02:15 [notice] 3688#104428: signal process started
+2024/04/25 14:02:28 [error] 23344#26004: *1 CreateFile() "C:\Users\Roy Bao\Downloads\nginx-1.26.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8800", referrer: "http://localhost:8800/"
+2024/04/25 15:39:01 [error] 23344#26004: *2 CreateFile() "C:\Users\Roy Bao\Downloads\nginx-1.26.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8800", referrer: "http://localhost:8800/"
